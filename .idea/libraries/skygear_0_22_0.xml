@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="skygear-0.22.0">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/io.skygear/skygear/0.22.0/res" />
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/io.skygear/skygear/0.22.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.skygear/skygear/0.22.0/c5c31c09084adba5e3cfb192ce43f93b0d034a1a/skygear-0.22.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
