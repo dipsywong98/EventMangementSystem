@@ -20,44 +20,63 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
-        android:text="Name"
+        android:text="User Name"
         android:ems="10"
         android:layout_below="@+id/textView"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_marginTop="15dp"
-        android:id="@+id/editText" />
+        android:id="@+id/name" />
 
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
-        android:text="Name"
+        android:text="Password"
         android:ems="10"
-        android:layout_below="@+id/editText"
-        android:layout_alignRight="@+id/editText"
-        android:layout_alignEnd="@+id/editText"
+        android:layout_below="@+id/name"
+        android:layout_alignRight="@+id/name"
+        android:layout_alignEnd="@+id/name"
         android:layout_marginTop="22dp"
-        android:id="@+id/editText2" />
+        android:id="@+id/pw" />
 
     <Button
-        android:text="Button"
+        android:text="sign up"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/editText2"
+        android:layout_below="@+id/pw"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_marginTop="22dp"
-        android:id="@+id/button2" />
+        android:id="@+id/signup" />
 
     <Button
-        android:text="Button"
+        android:text="sign in"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/button2"
-        android:layout_alignRight="@+id/editText2"
-        android:layout_alignEnd="@+id/editText2"
+        android:layout_alignTop="@+id/signup"
+        android:layout_alignRight="@+id/pw"
+        android:layout_alignEnd="@+id/pw"
         android:layout_marginRight="16dp"
         android:layout_marginEnd="16dp"
-        android:id="@+id/button3" />
+        android:id="@+id/signin" />
+
+    <Button
+        android:text="switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:id="@+id/pop_btn"
+        android:layout_below="@+id/signup"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="NEW"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/pop_btn"
+        android:layout_alignLeft="@+id/signin"
+        android:layout_alignStart="@+id/signin"
+        android:id="@+id/new_btn" />
 </RelativeLayout>
